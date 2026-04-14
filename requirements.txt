@@ -3,3 +3,4 @@ python-dotenv
 agno
 groq
 requests
+requestsyoutube_transcript_api
