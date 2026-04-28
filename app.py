@@ -18,9 +18,9 @@ def get_agent():
 
 agent = get_agent()
 
-# input box
+# input box for video
 
-video_url = st.text_input("Enter Youtube Video Link") # str
+video_url = st.text_input("Paste Youtube Video Link") # str
 
 button = st.button("Analyze Video") # True/False
 
