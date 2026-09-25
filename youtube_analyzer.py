@@ -13,7 +13,7 @@ groq_api_key = st.secrets.get("GROQ_API_KEY")
 def build_youtube_agent():
     return Agent(
     name="YouTube Agent",
-    model=Groq(id="qwen/qwen3-32b",api_key=groq_api_key),
+    model=Groq(id="openai/gpt-oss-20b",api_key=groq_api_key),
     tools=[YouTubeTools()],
     instructions=dedent("""\
         You are an expert YouTube content analyst with a keen eye for detail! 🎓
